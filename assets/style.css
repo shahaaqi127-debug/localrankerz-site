@@ -655,3 +655,13 @@ body { overflow-wrap: anywhere; }
 @media (hover: none) {
   .card:hover, .icon-card:hover, .btn-gold:hover { transform: none; }
 }
+
+
+/* Supplied LocalRankerz logo, kept in its original proportions. */
+.brand.brand-logo { display: inline-flex; align-items: center; flex-shrink: 0; line-height: 0; }
+.brand-logo img { display: block; width: 94px; height: auto; border-radius: 3px; }
+.footer-top .brand-logo { padding: 0; }
+.footer-top .brand-logo img { width: 180px; max-width: 100%; }
+@media (max-width: 760px) {
+  .nav .brand-logo img { width: 80px; }
+}
