@@ -665,3 +665,7 @@ body { overflow-wrap: anywhere; }
 @media (max-width: 760px) {
   .nav .brand-logo img { width: 80px; }
 }
+
+/* Transparent logo follows the background of its surrounding section. */
+.brand.brand-logo, .brand-logo img { background: transparent; box-shadow: none; }
+.brand-logo img { border-radius: 0; object-fit: contain; }
